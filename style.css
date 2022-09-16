@@ -1,0 +1,134 @@
+@font-face{
+  src: url(FONT/Agelast-mLlAm.otf);
+  font-family: age;
+}
+
+body {
+  background-image: url("NEWBGnew.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+*,
+*:before
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  width: 97%;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  padding: 25px 35px;
+  font-family: age;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px color;
+  
+}
+
+header{
+  height: 100vh;
+  
+}
+
+ul{
+  list-style: none;
+  
+}
+
+li{
+  display: inline-block;
+}
+
+li a{
+  margin-left: 100px;
+}
+
+nav a{
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+
+
+h2{
+  top: -5%;
+  left: 8.5%;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: absolute;
+  font-size: 10vw;
+  color: #252839;
+  -webkit-text-stroke: 0.06vw #F4F5FF;
+  text-transform: uppercase;
+  
+}
+
+h2::before
+{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #B8F2FF;
+  -webkit-text-stroke: 0vw #383d52;
+  overflow: hidden;
+  animation: animate 10s infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    width: 0%;
+  }
+  50%
+  {
+    width: 100%;
+  }
+  
+}
+
+#expBtn{
+  position: absolute;
+  display: flex;
+  left: 55%;
+  top: 60%;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  background: #262c37;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+#expBtn:hover{
+  
+}
+
+
+
+a{
+cursor: pointer;
+}
+
+#home-writing{
+  color: white;
+  top: 44%;
+  left: 9%;
+  position: absolute;
+  font-family: 'Alata', sans-serif;
+  font-size: 25px;
+}
