@@ -5,26 +5,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>COUNTDOWN</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="star_favi.PNG">
+  <link href="countdown.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="style.css" />
+  
+  
 </head>
+
+  
 
 <body>
 
-  <nav>
+  <nav class="navbar">
     <a href="#logo">
       <img src="Logo.PNG"
     </a>
-    <ul>
-      <li>
+    <ul class="ul1">
+      <li class="li1">
         <a href="index.html">00 Home</a> 
       </li>
-      <li>
-        <a href="destinations.html">01 Destinations</a> 
+      <li class="li2">
+        <a href="destinations.html">01 DESTINATIONS</a> 
       </li>
-      <li>
-        <a href="Aircrafts.html">02 AIRCRAFTS</a> 
-      </li>
-      <li>
+      <li class="li3">
+        <a href="Aircrafts.html">02 Aircrafts</a> 
+      <li class="li4">
         <a <button onclick="changeBackgroundImage();"></button>03 Background Switch</a> 
       </li>
     </ul>
@@ -38,12 +44,55 @@
   <script>
     // The function below will change the background image
     function changeBackgroundImage() {
-      document.body.style.backgroundImage = "url(BG3.png";
+      document.body.style.backgroundImage = "url(cntdwnbg.jpg";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundSize = "cover";
     }
       
   </script>
+
+
+  <section class="coming-soon">
+    <div>
+      <h2 >
+        WE'RE 
+        <span>
+        LAUNCHING
+        </span> 
+        SOON
+      </h2>
+      <div class="countdown">
+        <div class="container-day">
+          <h3 class="day">Time</h3>
+          <h3>Day</h3>
+        </div>
+        <div class="container-hour">
+          <h3 class="hour">Time</h3>
+          <h3>hour</h3>
+        </div>
+        <div class="container-minute">
+          <h3 class="minute">Time</h3>
+          <h3>minute</h3>
+        </div>
+        <div class="container-second">
+          <h3 class="second">Time</h3>
+          <h3>Second</h3>
+        </div>
+      </div>
+    </div>
+    <!-- <img class="waiting" src="./images/example1.jpg" /> -->
+  </section>
+  <script src="index.js"></script>
+
+
+
+  
+
+ <embed src="bgmusic.mp3" loop="true" autostart="true"
+		width="2" height="0"
+		</embed>
+
+
 
 
   

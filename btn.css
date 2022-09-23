@@ -1,0 +1,60 @@
+
+
+.menu{
+  top: -550px;
+  left: 42%;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li{
+  position: absolute;
+  left: 0;
+  list-style: none;
+  transform-origin: 200px;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+  transform: rotate(0deg) translateX(160px);
+}
+
+.menu.active li{
+  transform: rotate(calc(360deg / 5 * var(--i)));
+}
+
+
+.menu li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  transform: rotate(calc(360deg / -5 * var(--i)));
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0, 0.15);
+}
+
+
+.toggle{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  font-size: 2em;
+  transition: 1.25s;
+}
+
+.menu.active.toggle{
+  transform: rotate(315deg);
+}

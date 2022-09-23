@@ -1,5 +1,4 @@
 add dark mode (maybe not?)
-make it so stardust doesn't lose colour (keeping the colour loss, looks better that way)
 receipt download (this is done with node.js, seems a bit difficult but could possibly be done)
 explore button (working on)
 every other page (wip)

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face{
+  src: url(FONT/Agelast-mLlAm.otf);
+  font-family: age;
+}
+
+body {
+  background-image: url("NEWBGnew.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav{
+  width: 97%;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  padding: 25px 35px;
+  font-family: age;
+
+  
+}
+
+
+.navbar{
+  width: 97%;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  padding: 25px 35px;
+  font-family: age;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px color;
+  
+}
+
+header{
+  height: 100vh;
+  
+}
+
+ul{
+  list-style: none;
+  
+}
+
+li{
+  display: inline-block;
+}
+
+.li1 a{
+  margin-left: 100px;
+}
+
+.li2 a{
+  margin-left: 100px;
+}
+
+.li3 a{
+  margin-left: 100px;
+}
+
+.li4 a{
+  margin-left: 100px;
+}
+
+
+nav a{
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+
+
+
+.container{
+  width: 90%;
+  padding: 50px;
+  margin: 2 rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

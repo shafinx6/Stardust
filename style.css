@@ -3,22 +3,26 @@
   font-family: age;
 }
 
+#space{
+  top: 50%;
+}
+
+
 body {
   background-image: url("NEWBGnew.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-
-
-*,
-*:before
-*:after{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
+
+
+  html, body {margin: 0; height: 100%; overflow: hidden}
+
+
+
+
 
 nav{
   width: 97%;
@@ -49,9 +53,22 @@ li{
   display: inline-block;
 }
 
-li a{
+.li1 a{
   margin-left: 100px;
 }
+
+.li2 a{
+  margin-left: 100px;
+}
+
+.li3 a{
+  margin-left: 100px;
+}
+
+.li4 a{
+  margin-left: 100px;
+}
+
 
 nav a{
   color: #ffffff;
@@ -61,10 +78,10 @@ nav a{
 
 
 
-h2{
-  top: -5%;
+#Stardust{
+  top: -4%;
   left: 8.5%;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   position: absolute;
   font-size: 10vw;
   color: #252839;
@@ -73,7 +90,7 @@ h2{
   
 }
 
-h2::before
+#Stardust::before
 {
   content: attr(data-text);
   position: absolute;
@@ -99,36 +116,129 @@ h2::before
   
 }
 
-#expBtn{
-  position: absolute;
-  display: flex;
-  left: 55%;
-  top: 60%;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
-  background: #262c37;
-  letter-spacing: 2px;
-  font-size: 16px;
-  transition: 0.5s;
-}
-
-#expBtn:hover{
-  
-}
-
 
 
 a{
 cursor: pointer;
 }
+#SPACE{
+  color: white;
+  top: 35%;
+  left: 9%;
+  position: absolute;
+  font-family: 'Maven Pro', sans-serif;
+  font-size:130px;
+  letter-spacing: 10px;
+}
+  
 
 #home-writing{
   color: white;
-  top: 44%;
+  top: 40%;
   left: 9%;
   position: absolute;
-  font-family: 'Alata', sans-serif;
-  font-size: 25px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 27px;
 }
+
+
+#home-writing2{
+  color: white;
+  top: 62%;
+  left: 9%;
+  position: absolute;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 23px;
+  width: 430px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*dropdown*/
+
+.dropbtn {
+  background-color: transparent;
+  color: #ea1010;
+  padding: 16px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: age;
+}
+
+
+#myBtn {
+  background-color: transparent;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 149px;
+  overflow: auto;
+  letter-spacing: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 12px 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #585555}
+
+
+
+.show {display:block;}
+
+
+
+/*BG4*/
+/*
+body {
+  background-image: url("BG4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 400px;
+}
+*/
+
+/*BG3*/
+/*
+body {
+  background-image: url("BG3.png");
+  background-size: cover;
+  background-position: center ;
+  padding: 0;
+  margin: 0;
+  width: 1000vw;
+  height: 1000vh;
+}
+*/
